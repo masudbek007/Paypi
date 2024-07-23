@@ -9,7 +9,7 @@
       </p>
     </div>
     <div>
-        <img class="w-[440px]" src="/src/assets/Images/img.svg/tel.svg" alt="">
+        <img class="max-w-[550px]" src="/src/assets/Images/img.svg/tel.svg" alt="">
     </div>
   </div>
 </template>

@@ -2,7 +2,7 @@
 
 
 <template>
-      <div class=" max-w-[1200px] mx-auto flex gap-[180px]">
+      <div class=" max-w-[1200px] mt-20 mx-auto flex gap-[180px]">
         
         <div>
           <Heroblock text="Start building with our APIs for absolutely free." variant="variant1"/>

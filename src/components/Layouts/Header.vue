@@ -9,26 +9,27 @@
             </div>
             <ul class="flex gap-5 ">
                 <li>
-                    <router-link class=" font-bold text-slate-700 hover:text-slate-900" to="Pricing">
+                    <router-link class=" font-bold text-slate-700 hover:text-slate-900" to="/pricing">
                         Pricing
                     </router-link></li>
                 <li>
-                    <router-link class=" font-bold text-slate-700 hover:text-slate-900" to="About">
+                    <router-link class=" font-bold text-slate-700 hover:text-slate-900" to="/about">
                        About
                     </router-link></li>
                 <li>
-                    <router-link class=" font-bold text-slate-700 hover:text-slate-900" to="Contact">
+                    <router-link class=" font-bold text-slate-700 hover:text-slate-900" to="/contact">
                         Contact
                     </router-link></li>
             </ul>
         </div>
           
         <div>
-            <Buttun text="Schedule a demo" variant="variant1" />
-
+            <Buttun @click=" show= true" text="Schedule a demo" variant="variant1" />
         </div>
     </div>
   </header>
+
+  
 </template>
 
 <script setup>
@@ -38,3 +39,5 @@ import Buttun from '../Common/Buttun.vue'
 
 <style scoped>
 </style>
+
+

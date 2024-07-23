@@ -5,7 +5,7 @@
       <h2 class="text text-[70px] font-serif font-semibold" :class="[headerClass, variantClass]">
         {{ text }}
       </h2>
-      <p class="text-[14px] text-slate-300">
+      <p class="text-[14px] text-center text-slate-400">
         {{ title }}
       </p>
     </div>
@@ -31,9 +31,9 @@ const variantClass = computed(() => {
     case 'variant1':
       return 'text-slate-900';
     case 'variant2':
-      return 'text-white text-[48px]';
+      return 'text-white text-[45px]';
     case 'variant3':
-      return 'text-slate-500 text-[35px]';
+      return 'text-slate-500 text-[40px]';
     default:
       return '';
   }
